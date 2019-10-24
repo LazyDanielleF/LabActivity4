@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("Android Versions");
+        setTitle("ANDROID VERSIONS");
         name = getResources().getStringArray(R.array.Name);
         version = getResources().getStringArray(R.array.Version);
         api = getResources().getStringArray(R.array.API);
